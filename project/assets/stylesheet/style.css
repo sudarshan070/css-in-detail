@@ -1,0 +1,201 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* header */
+header {
+  font-family: "Gelasio", serif;
+  text-align: center;
+  background: rgb(212, 104, 198);
+  padding: 18px 0px;
+  font-size: 20px;
+}
+a {
+  margin: 12px;
+  text-decoration: none;
+  color: blue;
+  text-transform: uppercase;
+}
+.header a:hover {
+  color: cornsilk;
+}
+/* main */
+main {
+  width: 70%;
+  margin: 0 auto;
+}
+h2 {
+  font-size: 28px;
+  color: rgb(12, 12, 175);
+  padding: 20px 0px;
+  text-transform: uppercase;
+}
+.image {
+  max-width: 99%;
+  max-height: 99%;
+  /* height: auto; */
+}
+h3 {
+  font-size: 32px;
+  padding-top: 30px;
+  padding-bottom: 18px;
+}
+p {
+  font-size: 22px;
+  line-height: 1.3;
+  word-spacing: 1.9;
+  padding-top: 12px;
+}
+.more {
+  padding: 24px 0px;
+}
+.more a:hover {
+  color: crimson;
+}
+a {
+  padding-bottom: 34px;
+}
+footer {
+  font-family: "Gelasio", serif;
+  text-align: center;
+  background: rgb(141, 103, 228);
+  padding: 18px 0px;
+  font-size: 18px;
+}
+.image-dog {
+  max-width: none;
+  width: 70vw;
+  max-height: 99%;
+  /* display: block; */
+}
+/* about */
+h4 {
+  text-transform: uppercase;
+  font-size: 32px;
+  color: rgba(97, 75, 75, 0.685);
+  margin-left: 12px;
+  padding: 30px 0px;
+}
+.contain p {
+  padding: 14px 0px 24px 0px;
+}
